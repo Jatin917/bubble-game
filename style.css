@@ -74,8 +74,9 @@ html,body{
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
     border-radius: 50%;
     background: #459545;
 }

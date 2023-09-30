@@ -1,10 +1,10 @@
-var timer =  10;
+var timer =  60;
 var newN = 0;
 var score = 0;
 function makeBubble(){
     let clutter = "";
     
-    for (let i = 1; i <= 192; i++) {
+    for (let i = 1; i <= 90; i++) {
         var hitingN = Math.floor(Math.random()*10);
         clutter += `<div class="bubble">${hitingN}</div>`   
     }
